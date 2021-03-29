@@ -10,7 +10,7 @@ int main(){
         
         for (j= 0; j<1;j++){
             cout << "?" << endl;
-            system("mpg123 /root/Downloads/do.mp3"); //local do arquivo
+            system("mpg123 -q /root/Downloads/do.mp3"); //local do arquivo
         //no  windows system(start \local\do.mp3)
         }
     }
